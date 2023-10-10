@@ -31,4 +31,4 @@ class Module:
             return errors.Codes.FORBIDDEN
         else:
             logger.info("no block !!!!!!!!!!!!!!!!!")
-            return errors.NOT_SPAM
+            return module_api.NOT_SPAM
