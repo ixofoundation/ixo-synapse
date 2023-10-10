@@ -1,0 +1,11 @@
+{
+  "name": "ixo-synapse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ixo Foundation",
+  "license": "MIT",
+  "scripts": {
+    "python-requires": "python3 -m pip install -r requirements.txt",
+    "python-requirements": "python3 -m pip freeze > requirements.txt"
+  }
+}
